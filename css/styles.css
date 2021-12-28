@@ -29,6 +29,7 @@ body {
     color: #251818;
 }
 
+
 /* lists align center */
 ul, ol{
     text-align: center;
@@ -41,6 +42,11 @@ ul {
 
     margin: 0;
     padding: 0;
+}
+
+ol li {
+
+    margin-bottom: 10px;
 }
 
 .main-body {
