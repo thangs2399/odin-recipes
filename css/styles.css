@@ -1,7 +1,9 @@
 
 /* set webpage background balck */
-html {
+body {
     background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
 }
 
 /* title */
@@ -12,11 +14,14 @@ html {
 
 /* picture */
 .picture {
+
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 7px;
 }
-
 
 /* hompage recipes */
 .homepage-recipe{
@@ -25,8 +30,95 @@ html {
 }
 
 /* lists align center */
-li{
+ul, ol{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+
+    color: rebeccapurple;
+}
+
+.description-box {
+
+    margin-top: 15px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredient {
+
+    color: rebeccapurple;
+}
+
+.ingredient-box {
+
+    margin-top: 15px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendation {
+
+    color: rebeccapurple;
+}
+
+.direction {
+
+    color: rebeccapurple;
+}
+
+.direction-box {
+
+    margin-top: 15px;
+    width: 550px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goback {
+
+    margin-top: 30px;
+}
+
+button{
+
+    border: rebeccapurple 3px solid;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+button a {
+
+    color: rebeccapurple;
+}
+
 
 
